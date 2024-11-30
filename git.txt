@@ -1,0 +1,27 @@
+git clone "email"
+
+
+git add .
+
+git commit -m "commit"
+
+git push 
+
+----------------------------------
+
+git checkout -b    name_branch
+
+
+git add .
+
+git commit -m ' '
+
+git checkout main
+
+git pull origin main
+
+git checkout       name_branch
+
+git merge main
+
+git push origin    name_branch  
